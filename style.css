@@ -77,8 +77,22 @@ flex-wrap: wrap;
 justify-content: space-around;   
 gap: 1%;
 
-
 }
+
+.main-flex-center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center; 
+    align-content: center;
+    
+    
+    }
+
+    .top-margin{
+        margin-top: 10px;
+    }
 
 @media (max-width: 1100px){
     .linkes-center{
@@ -116,7 +130,7 @@ gap: 1%;
         }
 
     #sticky{
-        position: static; 
+        position: static;
         
     }
 
@@ -151,6 +165,10 @@ gap: 1%;
     .tow-col{
         grid-column-start: 1;
         grid-column-end: 5;
+    }
+
+    .top-margin{
+        margin-top: 0px;
     }
 }
 
@@ -194,6 +212,8 @@ gap: 1%;
         grid-column-end: 5;
     }
 
-
+    .top-margin{
+        margin-top: 0px;
+    }
         
 }
